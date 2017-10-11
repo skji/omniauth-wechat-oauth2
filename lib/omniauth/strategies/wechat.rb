@@ -12,7 +12,7 @@ module OmniAuth
         token_method:  :get
       }
 
-      option :authorize_params, {scope: "snsapi_userinfo"}
+      option :authorize_params
 
       option :token_params, {parse: :json}
 
